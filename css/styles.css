@@ -1,0 +1,105 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+body {
+ background:url(../images/wall.jpg) no-repeat;
+/* Image credits : http://www.stevesideas.net/blog/wp-content/uploads/2009/10/ */
+ background-size:cover;
+}
+
+
+/*container to hold the menu*/
+.box{
+position:fixed;
+width:50px;
+height:200px;
+top: 50px;
+}
+
+
+/*Menu starts*/
+ul {
+  position:fixed;
+  left:-25px;
+  width:500px;
+  height:220px;
+  list-style:none;
+
+}
+
+/*each li element corresponds to a menu item*/
+li {
+  
+  padding:1px 1px;
+margin-bottom:5px;
+margin-left:10px;
+}
+/* that icon to the right of every menu item*/
+li m {
+  display:block;
+  height:18px;
+  width:20px;
+  background:url(../images/trans.png) repeat;
+  color:#0CD374;
+  padding:8px 6px;
+  text-decoration:none;
+  text-align:center;
+}
+li a{
+  letter-spacing:2px;
+
+  text-decoration:none;
+  text-align:center;
+}
+
+li a:hover{
+  letter-spacing:2px;
+  
+  text-decoration:none;
+ 
+}
+
+.menu {
+  opacity:1;
+  -webkit-transform:rotateY(0deg);
+  -moz-transform:rotateY(0deg);
+  -o-transform:rotateY(0deg);
+  transform:rotateY(0deg);
+  -webkit-transition:.2s;
+  -moz-transition:.2s;
+  -o-transition:.2s;
+  transition:.2s;
+}
+li span {
+  display:block;
+  width:154px;
+  height:18px;
+  float:left;
+
+  background:rgba(0,0,0,0.5);
+  color:#fff;
+  margin:-34px 34px;
+  padding:8px 6px;
+
+  
+}
+
+li span:hover{
+  width:154px;
+  height:18px;
+  float:left;
+  
+  /*background:#A373B;*/
+	  background:rgba(0,0,0,0.8);
+  color:#fff;
+  margin:-34px 34px;
+  padding:8px 6px;
+margin-bottom:5px;
+
+  zoom:1.05;
+}
+
